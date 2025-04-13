@@ -1,55 +1,69 @@
-# YaRabb - Muslim Dua Assistant
+# YaRabb - Islamic Prayer & Spiritual Companion
 
-YaRabb is a mobile application designed to help Muslims make dua (supplication) by providing access to Allah's 99 beautiful names and authentic duas from the Quran and Sunnah.
+YaRabb is a mobile application designed to enhance your Islamic spiritual journey through personalized duas (prayers), tracking good deeds, and providing access to Allah's 99 names.
 
 ## Features
 
-- **Dua Assistant**: Enter your dua intention and get personalized recommendations
-- **Allah's 99 Names**: Browse and search through the beautiful names of Allah
-- **Authentic Duas**: Access authentic duas from the Quran and Sunnah
-- **On-Device AI**: Private and secure processing that works without an internet connection
-- **Clean UI**: Modern, soft interface designed for spiritual content
+### 📝 Dua Builder
+Create personalized duas by selecting from traditional phrases or writing your own. Save your most meaningful duas for daily recitation.
 
-## Technical Details
+### 📖 Allah's 99 Names
+Explore the beautiful names of Allah with meanings, benefits, and pronunciation guides.
 
-- Built with React Native and Expo
-- TypeScript for type safety
-- On-device AI powered by TensorFlow.js
-- Focused on iOS deployment first, with Android support planned
+### 🔖 My Duas
+Access your saved duas in one convenient location. Organize, edit, and set reminders for regular recitation.
 
-## Setup Instructions
+### 👐 Good Deeds Tracker
+Record and track your daily good deeds to encourage consistent spiritual growth and mindfulness.
 
-1. Ensure you have Node.js and npm installed
-2. Install Expo CLI: `npm install -g expo-cli`
-3. Clone this repository
-4. Navigate to the project directory: `cd YaRabbApp`
-5. Install dependencies: `npm install`
-6. Start the development server: `npm start`
+## Installation
 
-## Extending the App
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/YaRabb.git
 
-### Adding More Names of Allah
+# Navigate to the project directory
+cd YaRabb
 
-Edit the `src/data/allahNames.ts` file to add more names with their meanings and benefits.
+# Install dependencies
+npm install
+# or
+yarn install
 
-### Adding More Duas
+# Start the app
+npm start
+# or
+yarn start
+```
 
-Edit the `src/data/authenticDuas.ts` file to add more authentic duas from reliable sources.
+## Usage
 
-### Adding Hadiths
+After launching the app, you can navigate between the main features using the bottom tab navigation:
 
-A future update will include hadith integration. The structure will be similar to the duas data format.
+- **Dua Builder**: Create and customize new duas
+- **Allah's Names**: Browse and learn about the 99 names of Allah
+- **My Duas**: Access your saved duas
+- **Good Deeds**: Track and review your good deeds
 
-## Publishing to iOS App Store
+## Technologies
 
-1. Build the app for production: `expo build:ios`
-2. Follow Expo's instructions to submit to the App Store
-3. Update the bundle identifier in `app.json` with your actual identifier
+- React Native
+- Expo
+- React Navigation
+- React Native Safe Area Context
+- Expo Vector Icons
 
-## License
+## Contributing
 
-[Your License Here]
+Contributions are welcome! If you'd like to contribute, please:
 
-## Credits
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Created by [Your Name]
+## Acknowledgments
+
+- Inspired by the need for a modern, user-friendly Islamic spiritual companion
+- Created by Mohamed Hassan
